@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.font-dm {
+  font-family: var(--font-dm-sans), sans-serif;
+}
+
+/* Utility class for Open Sans */
+.font-os {
+  font-family: var(--font-open-sans), sans-serif;
+}
+
+/* Slick Carousel Customizations */
+.slick-dots li button::before {
+    background: #5A5A5A !important;
+    width: 50px !important;
+    height: 2px !important;
+    content: "" !important;
+    opacity: 1 !important;
+}
+
+.slick-dots li {
+    margin: 0px 20px !important;
+}
+
+.slick-dots li.slick-active button:before {
+    background: #ffffff !important;
+}
