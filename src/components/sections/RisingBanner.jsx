@@ -1,3 +1,4 @@
+"use client";
 import React, { useState } from 'react';
 import Image from '../ui/Image'; // Use your custom Image component
 
@@ -25,6 +26,8 @@ const RisingBanner = () => {
           className="w-[672px] h-[452px] rounded-[30px] border border-[#f4f4f4]"
           src="/rising_business_post1.png" // Direct path from the public folder
           alt="BRAC Seed Event"
+          width={450}     
+          height={329}
         />
 
         {/* Text Section */}

@@ -77,6 +77,8 @@ const GetConnected = () => {
                     src="/getconnected1.png" // Image from public folder
                     className="w-[640px] h-[750px] object-cover rounded-tl-[15px] rounded-bl-[15px]"
                     alt="Slider Image"
+                    width={450}     
+                    height={329}
                   />
                   <div className="absolute bottom-[20px] left-[30px] h-[50px] px-[30px] py-[15px] bg-[#e6c491]/70 rounded-[20px] backdrop-blur-[10px] flex justify-center items-center">
                     <p className="text-white text-2xl font-bold font-os">
@@ -89,6 +91,8 @@ const GetConnected = () => {
                     src="/getconnected2.jpg" // Image from public folder
                     className="w-[640px] h-[750px] object-cover rounded-tl-[15px] rounded-bl-[15px]"
                     alt="Slider Image 2"
+                    width={450}     
+                    height={329}
                   />
                   <div className="absolute bottom-[20px] left-[30px] h-[50px] px-[30px] py-[15px] bg-[#e6c491]/70 rounded-[20px] backdrop-blur-[10px] flex justify-center items-center">
                     <p className="text-white text-2xl font-bold font-os">
@@ -197,6 +201,8 @@ const GetConnected = () => {
               src="/getconnected2.jpg" // Image from public folder
               className="w-full h-full object-cover"
               alt="Map Placeholder"
+              width={450}     
+              height={329}
             />
           </div>
         </div>

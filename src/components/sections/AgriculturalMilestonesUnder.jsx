@@ -10,6 +10,8 @@ const AgriculturalMilestonesUnder = () => {
           className="w-full h-[484px] rounded-[30px] object-cover"
           src="/agriculture1.jpg"  // Image path from public folder
           alt="Agriculture Milestone 1"
+          width={450}     
+          height={329}
         />
         <div className="mt-6">
           <h2 className="text-black text-base font-bold leading-snug font-['Open Sans']">
@@ -40,6 +42,8 @@ const AgriculturalMilestonesUnder = () => {
             className="w-[270px] h-[339px] rounded-[30px] object-cover"
             src="/agriculture2.jpg"  // Image path from public folder
             alt="Agriculture Milestone 2"
+            width={450}     
+            height={329}
           />
           <div className="flex flex-col justify-start items-start">
             <h2 className="text-black text-base font-bold font-['Open Sans'] leading-snug">
@@ -67,6 +71,8 @@ const AgriculturalMilestonesUnder = () => {
             className="w-[270px] h-[339px] rounded-[30px] object-cover"
             src="/agriculture3.jpg"  // Image path from public folder
             alt="Agriculture Milestone 3"
+            width={450}     
+          height={329}
           />
           <div className="flex flex-col justify-start items-start">
             <h2 className="text-black text-base font-bold font-['Open Sans'] leading-snug">

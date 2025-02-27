@@ -73,6 +73,8 @@ const Videos = () => {
                 className="w-[355px] h-[200px] rounded-[30px] object-cover"
                 src={src}
                 alt={`video-${index + 1}`}
+                width={450}     
+                height={329}
               />
               <div className="absolute inset-0 flex justify-center items-center">
                 <div className="w-[76px] h-[76px] opacity-75 mix-blend-multiply bg-[#333333] rounded-full flex justify-center items-center">

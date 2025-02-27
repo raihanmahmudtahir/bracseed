@@ -8,8 +8,10 @@ const BioPesticides = () => {
         {/* Image */}
         <Image
           className="w-[740px] h-[370px] rounded-[30px] shadow"
-          src="/bio_pesticides.png"  // Path from the public folder
+          src="/bio_pesticides.png"
           alt="Bio-Pesticides"
+          width={450}     
+          height={329}
         />
 
         {/* Text Block */}

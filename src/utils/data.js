@@ -9,7 +9,7 @@ const navBar = [
     },
     {
         name: "R&D",
-        link: "/r-d"
+        link: "/rd"
     },
     {
         name: "Products",
@@ -17,15 +17,15 @@ const navBar = [
     },
     {
         name: "News & Events",
-        link: "/news-events"
+        link: "/news-and-events"
     },
     {
         name: "Career",
-        link: "/career"
+        link: "/join-the-team"
     },
     {
         name: "Contact",
-        link: "/contact"
+        link: "/get-connected-page"
     },
 ]
 

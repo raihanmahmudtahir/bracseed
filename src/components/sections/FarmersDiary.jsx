@@ -51,6 +51,8 @@ const FarmersDiary = () => {
             className="w-full h-[300px] rounded-tl-[60px] rounded-tr-[60px] object-cover"
             src="/farmersdiary1.jpg" // Path from public folder
             alt="Corn farming"
+            width={450}     
+          height={329}
           />
           <div className="w-full h-full px-[30px] py-6 flex flex-col gap-6">
             <div className="flex items-center gap-6">
@@ -60,6 +62,8 @@ const FarmersDiary = () => {
                     className="object-cover w-full h-full"
                     src="/abul_hashem.png" // Path from public folder
                     alt="Abul Hashem"
+                    width={450}     
+                    height={329}
                   />
                 </div>
               </div>
@@ -85,6 +89,8 @@ const FarmersDiary = () => {
             className="w-full h-[300px] rounded-tl-[60px] rounded-tr-[60px] object-cover"
             src="/farmersdiary2.jpg" // Path from public folder
             alt="Rice farming"
+            width={450}     
+          height={329}
           />
           <div className="w-full h-full px-[30px] py-6 flex flex-col gap-6">
             <div className="flex items-center gap-6">
@@ -94,6 +100,8 @@ const FarmersDiary = () => {
                     className="object-cover w-full h-full"
                     src="/kuddus.jpg" // Path from public folder
                     alt="Kuddus"
+                    width={450}     
+                    height={329}
                   />
                 </div>
               </div>

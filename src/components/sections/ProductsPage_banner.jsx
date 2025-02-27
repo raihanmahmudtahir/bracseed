@@ -30,6 +30,8 @@ const ProductsPageBanner = () => {
         <Image
           src="/product_header.png" // Use the path of the image in the public directory
           alt="Video Thumbnail"
+          width={450}     
+          height={329}
           className="w-full h-full object-cover rounded-lg"
         />
         <div className="absolute inset-0 flex justify-center items-center">

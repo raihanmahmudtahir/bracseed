@@ -7,7 +7,7 @@ const JoinTeamBanner = () => {
       {/* Background Image */}
       <Image
         className="w-[1728px] h-[380px] object-cover object-[0%_75%]"
-        src="/assets/jointheteam.png" // Update the image path to the public folder
+        src="/jointheteam.png"//Update the image path to the public folder
         alt="Join the Team Background"
         layout="responsive" // Ensure responsive behavior
         width={1728} // Set the correct width
